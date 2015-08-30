@@ -7,7 +7,9 @@ public class Main {
 		/*InsertionSort selection = new InsertionSort();*/
 		/*SelectionSort selection = new SelectionSort();*/
 		/*ShellSort selection = new ShellSort();*/
-		MergeSort selection = new MergeSort();
+		/*MergeSort selection = new MergeSort();*/
+		/*BottomUpMergeSort selection = new BottomUpMergeSort();*/
+		QuickSort selection = new QuickSort();
 		selection.sort(words);
 		for(String s : words)
 			System.out.println(s);

@@ -1,6 +1,6 @@
 package sorting;
 
-
+//Improvement over insertion sort 
 @SuppressWarnings("rawtypes")
 public class ShellSort {
 	
