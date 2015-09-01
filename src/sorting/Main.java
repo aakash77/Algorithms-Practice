@@ -10,7 +10,8 @@ public class Main {
 		/*MergeSort selection = new MergeSort();*/
 		/*BottomUpMergeSort selection = new BottomUpMergeSort();*/
 		/*QuickSort selection = new QuickSort();*/
-		DuplicateKeysQuickSort selection = new DuplicateKeysQuickSort();
+		/*DuplicateKeysQuickSort selection = new DuplicateKeysQuickSort();*/
+		HeapSort selection = new HeapSort();
 		selection.sort(words);
 		for(String s : words)
 			System.out.println(s);
@@ -24,5 +25,10 @@ public class Main {
 		 */
 		/*QuickSelect selection = new QuickSelect();
 		System.out.println(selection.select(words, 2));*/
+		
+		String name = "aakash";
+		name += " mangal" ;
+		System.out.println(name);
+		
 	}
 }
