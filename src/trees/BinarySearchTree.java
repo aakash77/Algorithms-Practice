@@ -14,7 +14,6 @@ public class BinarySearchTree<Key extends Comparable<Key>,Value> {
 		}
 	};
 	
-	//pointing to root node
 	private Node root;
 	
 	//Method to add new key value
